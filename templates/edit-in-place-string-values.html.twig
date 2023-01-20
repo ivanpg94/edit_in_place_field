@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display strings.
+ *
+ * Available variables:
+ * - values: data from getValue function of the text field.
+ */
+#}
+<div class="edit-in-place-editable string field-value" >
+    <ol>
+      {% if multiple %}
+        {% for value in values %}
+            <li>{{ value }}</li>
+        {% endfor %}
+      {% else  %}
+        <div>{{ values.0 }}</div>
+      {% endif %}
+    </ol>
+</div>

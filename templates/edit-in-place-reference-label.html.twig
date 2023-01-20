@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display entities labels.
+ *
+ * Available variables:
+ * - labels: labels extracted from entities.
+ */
+#}
+<div class="edit-in-place-editable reference entity-label" >
+    <ul>
+    {% for label in labels %}
+        <li>{{ label }}</li>
+    {% endfor %}
+    </ul>
+</div>

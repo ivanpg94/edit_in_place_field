@@ -1,0 +1,11 @@
+name: Edit in place field
+type: module
+description: Add a edit in place options on each field it's applied
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Fields
+
+# Information added by Drupal.org packaging script on 2021-11-03
+version: '2.0.0-beta3'
+project: 'edit_in_place_field'
+datestamp: 1635948010

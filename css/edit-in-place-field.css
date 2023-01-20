@@ -1,0 +1,56 @@
+fieldset.edit-in-place-clickable.form-item {
+  border-radius: 10px;
+  padding: 0px 0px 0px;
+  min-height: 9px;
+  border: 1px dashed #c0c0c0;
+  cursor: pointer;
+}
+
+fieldset.edit-in-place-clickable.form-item form {
+  padding: 0 10px;
+}
+
+fieldset.edit-in-place-clickable.form-item legend {
+  display: none;
+
+}
+
+fieldset.edit-in-place-clickable.edit-in-place-clickable-init  legend + .fieldset__wrapper .form-item,
+fieldset.edit-in-place-clickable.edit-in-place-clickable-init  legend + .fieldset-wrapper .form-item {
+  display: none;
+}
+
+fieldset.edit-in-place-clickable.form-item .fieldgroup input {
+  float: right;
+}
+
+fieldset:not(.edit-in-place-clickable-init).form-item .fieldset__wrapper .edit-in-place-editable,
+fieldset:not(.edit-in-place-clickable-init).form-item .fieldset-wrapper .edit-in-place-editable {
+  display: none;
+}
+
+fieldset.edit-in-place-clickable.form-item .edit-in-place-editable {
+  width: auto;
+  min-height: 23px;
+}
+
+fieldset.edit-in-place-clickable.form-item .edit-in-place-editable ul {
+  margin: 3px;
+  padding-inline-start: 20px;
+}
+
+fieldset.edit-in-place-clickable.form-item .edit-in-place-editable div,
+fieldset.edit-in-place-clickable.form-item .edit-in-place-editable ol,
+fieldset.edit-in-place-clickable.form-item .edit-in-place-editable ul {
+  white-space: nowrap;
+  min-width: 150px;
+}
+
+fieldset.edit-in-place-clickable.form-item .edit-in-place-editable .edit-in-place--group:not(.last-group) {
+  border-bottom: 1px dashed;
+}
+
+.form-type-edit-in-place-select .form-select.edit-in-place,
+.form-type-edit-in-place-select .chosen-container {
+  max-width: 500px;
+}
